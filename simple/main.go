@@ -6,14 +6,14 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/xnzone/apollo-go"
+	"github.com/apollo-client/apollo-go"
 )
 
 var (
 	app = &apollo.Application{
 		Addr:    "http://81.68.181.139:8080",
 		AppId:   "apollo-go",
-		Secret:  "",
+		Secret:  "40edd9317add4489a2eaa104054b01e6",
 		Cluster: "DEV",
 	}
 	mDef = &DConfig{}
